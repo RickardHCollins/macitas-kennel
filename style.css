@@ -1,7 +1,7 @@
 /* Grundinställningar baserat på webbriktlinjer */
 body {
-    background-color: #F5F5DC; /* Beige bakgrund för varm känsla */
-    color: #333333;           /* Mörkgrå text för hög kontrast */
+    background-color: #F5F5DC; 
+    color: #333333;           
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
@@ -9,7 +9,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Lora', Georgia, serif;
-    color: #2E5936; /* Skogsgrön */
+    color: #2E5936; /
 }
 
 /* Header & Navigering */
@@ -41,7 +41,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px; /* Webbriktlinje: Stora klickytor */
+    padding: 10px; 
 }
 
 nav a:hover {
@@ -184,7 +184,7 @@ footer {
 
 footer a { color: #f5f5dc; }
 
-/* UPPUGIFT 6: RESPONSIVITET */
+/* RESPONSIVITET */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -212,7 +212,7 @@ footer a { color: #f5f5dc; }
     }
 }
 
-/* UPPGIFT 7: UTSKRIFTSLAYOUT */
+/* UTSKRIFTSLAYOUT */
 @media print {
     header, footer, .contact-form, nav {
         display: none;
