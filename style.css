@@ -9,7 +9,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Lora', Georgia, serif;
-    color: #2E5936; /
+    color: #2E5936;
 }
 
 /* Header & Navigering */
@@ -171,6 +171,12 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
     padding: 10px;
+}
+
+#contact-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 /* Footer */
